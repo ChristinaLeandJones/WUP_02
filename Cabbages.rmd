@@ -67,3 +67,4 @@ The pvalue is .0000000887704. This is a very small number. What this number repr
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+   My conclusion is that the relationship between c52 and c39 is that c52 has more VitC content and that c39 has less. 
