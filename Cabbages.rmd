@@ -46,6 +46,14 @@ Boxplot shows the VitC is more for c52 than c39. The VitC level for c52 is aroun
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+
+```
+
+
+   The table shows that c39 is an avearge of 51.5 and the c52 is an average 64.4.   
+     
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
