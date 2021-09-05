@@ -34,6 +34,13 @@ veggy <- cabbages
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+
+  
+Boxplot shows the VitC is more for c52 than c39. The VitC level for c52 is around 70 and c39 is around 55. 
+
 
 ### Numerical Descriptive Results
 
