@@ -54,7 +54,7 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
-``{r}
+```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
 
@@ -87,4 +87,4 @@ The pvalue is .00000003405. This is a very small number. What this number repres
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
    
-   My conclusion is that when cabbages are cultivated with cultivation method c52, the cabbages have more vitamin C. 
+   My conclusion is that when cabbages are cultivated with cultivation method c52, the cabbages have more vitamin C.  
