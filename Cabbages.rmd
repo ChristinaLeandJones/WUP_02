@@ -27,8 +27,7 @@ $H_A$ There is a difference in the Vitamin content based on cultivation method.
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-VitC is a numerical variable. Cult is a cate
-gorical variable. The helper file we need is numerical~cat
+VitC is a numerical variable. Cult is a categorical variable. The helper file we need is numerical~cat
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -59,8 +58,7 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 boxplot(VitC~Cult,data=veggy)
 ```
 
-  
-Boxplot shows the VitC is more for c52 than c39. The VitC level for c52 is around 70 and c39 is around 55. 
+  Boxplot shows the VitC is more for c52 than c39. The VitC level for c52 is around 70 and c39 is around 55. 
 
 
 ### Numerical Descriptive Results
@@ -88,4 +86,5 @@ The pvalue is .00000003405. This is a very small number. What this number repres
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-   My conclusion is that the relationship between c52 and c39 is that c52 has more VitC content and that c39 has less. 
+   
+   My conclusion is that when cabbages are cultivated with cultivation method c52, the cabbages have more vitamin C. 
